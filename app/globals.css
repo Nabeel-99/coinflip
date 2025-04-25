@@ -1,26 +1,136 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
   --foreground: #171717;
+  --background: linear-gradient(to bottom right, #1e2a78, #3e1c4b);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
     --foreground: #ededed;
+    --background: linear-gradient(to bottom right, #1e2a78, #3e1c4b);
   }
 }
-
+html {
+  background: var(--background);
+}
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.frame-1 {
+  background-position: 0 -3px;
+}
+.frame-2 {
+  background-position: 0 -136px;
+}
+.frame-3 {
+  background-position: 0 -269px;
+}
+.frame-4 {
+  background-position: 0 -402px;
+}
+.frame-5 {
+  background-position: 0 -535px;
+}
+.frame-6 {
+  background-position: 0 -668px;
+}
+.frame-7 {
+  background-position: 0 -801px;
+}
+.frame-8 {
+  background-position: 0 -934px;
+}
+.frame-9 {
+  background-position: 0 -1067px;
+}
+.frame-10 {
+  background-position: 0 -1200px;
+}
+.frame-11 {
+  background-position: 0 -1333px;
+}
+.frame-12 {
+  background-position: 0 -1466px;
+}
+.frame-13 {
+  background-position: 0 -1599px;
+}
+.frame-14 {
+  background-position: 0 -1732px;
+}
+.frame-15 {
+  background-position: 0 -1865px;
+}
+.frame-16 {
+  background-position: 0 -1998px;
+}
+.frame-17 {
+  background-position: 0 -2131px;
+}
+.frame-18 {
+  background-position: 0 -2264px;
+}
+
+.frame-l-1 {
+  background-position: 0 4px;
+}
+.frame-l-2 {
+  background-position: 0 -310px;
+}
+.frame-l-3 {
+  background-position: 0 -620px;
+}
+.frame-l-4 {
+  background-position: 0 -930px;
+}
+.frame-l-5 {
+  background-position: 0 -1240px;
+}
+.frame-l-6 {
+  background-position: 0 -1550px;
+}
+.frame-l-7 {
+  background-position: 0 -1860px;
+}
+.frame-l-8 {
+  background-position: 0 -2170px;
+}
+.frame-l-9 {
+  background-position: 0 -2482px;
+}
+.frame-l-10 {
+  background-position: 0 -2795px;
+}
+.frame-l-11 {
+  background-position: 0 -3104px;
+}
+.frame-l-12 {
+  background-position: 0 -3416px;
+}
+.frame-l-13 {
+  background-position: 0 -3728px;
+}
+.frame-l-14 {
+  background-position: 0 -4040px;
+}
+.frame-l-15 {
+  background-position: 0 -4352px;
+}
+.frame-l-16 {
+  background-position: 0 -4664px;
+}
+.frame-l-17 {
+  background-position: 0 -4976px;
+}
+.frame-l-18 {
+  background-position: 0 -5288px;
 }
