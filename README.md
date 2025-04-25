@@ -34,4 +34,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
 # coinflip
+
+A simple and responsive coin flip app built with Next.js, TailwindCSS,Framer motion and TypeScript.  
+It features smooth animations using a sprite sheet, realistic flipping behavior, and a clean UI.  
+Perfect for quick decisions or just testing your luck.
