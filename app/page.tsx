@@ -43,7 +43,7 @@ export default function Home() {
       if (elapsedTime > duration) {
         clearInterval(interval);
 
-        const result = frame <= 4 || frame >= 14 ? "Heads" : "Tails";
+        const result = Math.random() < 0.5 ? "Heads" : "Tails";
         const final = result === "Heads" ? 1 : 10;
         if (result === "Heads") {
           setHeadsCount((prev) => prev + 1);
