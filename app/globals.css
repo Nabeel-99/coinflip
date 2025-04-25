@@ -2,7 +2,7 @@
 
 :root {
   --foreground: #171717;
-  --background: linear-gradient(to bottom right, #1e2a78, #3e1c4b);
+  --background: linear-gradient(to bottom right, #162038, #091a2f);
 }
 
 @theme inline {
@@ -13,7 +13,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #ededed;
-    --background: linear-gradient(to bottom right, #1e2a78, #3e1c4b);
+    --background: linear-gradient(to bottom right, #162038, #091a2f);
   }
 }
 html {
